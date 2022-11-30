@@ -1,4 +1,4 @@
-# `rgb(9, 105, 218)`Order of Growth
+# Order of Growth
 
 | *n*            | log<sub>2</sub> *n* | *n*            | *n* log<sub>2</sub> *n* | *n*<sup>2<sup>  | *n*<sup>3<sup>  | 2<sup>*n*</sup>     | *n*!                 |
 |----------------|---------------------|----------------|-------------------------|-----------------|-----------------|---------------------|----------------------|
@@ -11,4 +11,17 @@
 
 
 # Worst-Cast, Best-Case, and Average-Case Efficiencies
+
+Worst Case
+: Efficiency for the worst case of size *n*, which is an input(or inputs) of size *n* for which the algorithm runs the longest among all opposable input of that size. 
+: *C*<sub>worst</sub>(n)
+
+Average Case
+: Efficiency for the average case of size *n*, which is the amount of some computational resource (typically time) used by the algorithm, averaged over all possible inputs.
+: *C*<sub>avg</sub>(n)
+
+Best Case
+: Efficiency for the best case of size *n*, which is an input(or inputs) of size *n* for which the algorithm runs the fastest among all opposable input of that size.
+: *C*<sub>best</sub>(n)
+
 
