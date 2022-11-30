@@ -1,3 +1,6 @@
+#include <string>
+#include <vector>
+using namespace std;
 
 vector<string> string_to_array(const string& s) {
     vector<string> ourvec;

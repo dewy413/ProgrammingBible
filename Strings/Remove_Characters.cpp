@@ -1,3 +1,7 @@
+#include <string>
+using namespace std;
+
+
 string removeCharacter(string s, char c){
     string news;
     for(auto i : s) {

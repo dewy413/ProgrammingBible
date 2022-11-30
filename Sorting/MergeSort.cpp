@@ -1,3 +1,6 @@
+#include <cmath>
+using namespace std;
+
 void merge(int B[], int bSize, int C[], int cSize, int A[]) {
     int i, j, k;
     i = 0;

@@ -1,3 +1,7 @@
+#include <string>
+using namespace std;
+
+
 char* split(string word) {
     char* wordsplit = new char[word.length()];
     for(int i = 0; i < word.length(); i++) {
