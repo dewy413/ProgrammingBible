@@ -10,6 +10,9 @@
 | 10<sup>6</sup> | 20                  | 10<sup>6</sup> | 2.0*10<sup>7</sup>      | 10<sup>12</sup> | 10<sup>18</sup> |                     |                      |
 
 
+## There are a few more classes, but in terms of order of grow this is smallest to largest.
+
+
 # Worst-Cast, Best-Case, and Average-Case Efficiencies
 
 Worst Case
