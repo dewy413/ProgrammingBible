@@ -1,14 +1,10 @@
 
-int[] randomNumberGenerator(int range, int amount) {
+int randomNumberGenerator(int array[], int size, int range) {
 
-    int[] numbers = new[amount];
     srand((unsigned) time(0));
     int randomNumber;
-    for (int index = 0; index < amount; index++) {
-        randomNumber = (rand() % range) + 1;
-        cout << randomNumber << endl;
+    for (int i = 0; i < size; i++) {
+        array[i] = (rand() % range) + 1;
     }
 
 }
-
-
